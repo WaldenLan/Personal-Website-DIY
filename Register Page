@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" type="text/css" href="inde_style.css">
+</head>
+<body bgcolor="#f0ffff" align="center">
+<h1>Creat a new account!</h1>
+<form>
+    Username：
+    <input type="text">
+    <br/>
+    Password：
+    <input type="password">
+    <br/>
+    Gender:
+    male<input type="radio" name="sex">
+    female<input type="radio" name="sex">
+    <br/>
+    Which one is your hobby?(multi-choice)<br/>
+    Surfing on the Internet <input type="checkbox">        <br/>
+    See films <input type="checkbox">        <br/>
+    Singing <input type="checkbox">        <br/>
+    Eating <input type="checkbox">        <br/>
+    Others：<input type="text">
+    <p>
+        Which website do you like?
+        <select>
+            <option>--------------------------</option>
+            <option>www.baidu.com</option><br/>
+            <option>www.google.com</option><br/>
+            <option>www.manmankan.com</option><br/>
+        </select>
+        <br/>
+        Want to search？Click the following hyperlink：
+        <a href="http://www.baidu.com" target="_blank">Go Baidu!</a>
+    </p>
+    Write down your suggestion here？（limit: 500 words）<br/>
+        <textarea cols="50" rows="15">
+            Please start writing...
+        </textarea>
+    <br/>
+    <input type="button" value="submit">
+</form>
+
+</body>
+</html>
